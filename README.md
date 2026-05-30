@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![DocuMind AI Banner](assets/screenshot1.png)
+![DocuMind AI Banner](assests/screenshot1.png)
 
 **An intelligent RAG-powered chatbot that lets you chat with any PDF or document using AI**
 
@@ -24,13 +24,13 @@
 <div align="center">
 
 ### 🏠 Main Interface
-![Main Interface](assets/screenshot1.png)
+![Main Interface](assests/screenshot1.png)
 
 ### 💬 Chat in Action
-![Chat in Action](assets/screenshot2.png)
+![Chat in Action](assests/screenshot2.png)
 
 ### 📄 Sources Panel
-![Sources Panel](assets/screenshot3.png)
+![Sources Panel](assests/screenshot3.png)
 
 </div>
 
@@ -247,25 +247,6 @@ API Docs  → http://localhost:8000/docs
 
 ---
 
-## 🆓 Free Tier Limits
-
-| Service | Free Limit | Cost |
-|---------|-----------|------|
-| Groq API | 14,400 requests/day | $0 Forever |
-| HuggingFace Embeddings | Unlimited (runs locally) | $0 Forever |
-| FAISS Vector DB | Unlimited (runs locally) | $0 Forever |
-
----
-
-## 🚀 Deployment Options
-
-| Platform | Service | Cost |
-|----------|---------|------|
-| **Render** | Backend (FastAPI) | Free tier |
-| **Vercel** | Frontend (React+Vite) | Free tier |
-| **Railway** | Full stack | Free tier |
-
----
 
 ## 🤝 Contributing
 
