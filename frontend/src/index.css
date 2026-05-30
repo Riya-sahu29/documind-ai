@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Smooth scrollbar for chat */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #cbd5e1; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Markdown styles */
+.prose p { margin-bottom: 0.5rem; }
+.prose p:last-child { margin-bottom: 0; }
+.prose ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 0.5rem; }
+.prose ol { list-style: decimal; padding-left: 1.25rem; margin-bottom: 0.5rem; }
+.prose li { margin-bottom: 0.25rem; }
+.prose code {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+.prose pre {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0.5rem 0;
+}
+.prose pre code { background: none; padding: 0; }
+.prose strong { font-weight: 600; }
+.prose h1, .prose h2, .prose h3 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 0.75rem;
+}
