@@ -1,67 +1,115 @@
-🧠 DocuMind AI — Chat With Your Documents
-[![Python](https://img.shields.io/badge/Python-3.10+-blue...)]
-[![React](https://img.shields.io/badge/React-18-61DAFB...)]
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688...)]
-[![Groq](https://img.shields.io/badge/Groq-LLaMA3-orange...)]
-[![License](https://img.shields.io/badge/License-MIT-green...)]
-[![APIs](https://img.shields.io/badge/APIs-100%25Free-brightgreen...)]
+# 🧠 DocuMind AI — Chat With Your Documents
 
-An intelligent RAG-powered chatbot that lets you chat with any PDF or document using AI
-
-📸 Screenshots
 <div align="center">
-🏠 Main Interface
-Show Image
-💬 Chat in Action
-Show Image
-📄 Sources Panel
-Show Image
+
+![DocuMind AI Banner](assets/screenshot1.png)
+
+**An intelligent RAG-powered chatbot that lets you chat with any PDF or document using AI**
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)](https://python.org)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
+[![Groq](https://img.shields.io/badge/Groq-LLaMA3-orange?style=for-the-badge)](https://groq.com)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![APIs](https://img.shields.io/badge/APIs-100%25%20Free-brightgreen?style=for-the-badge)](https://groq.com)
+
+[🚀 Live Demo](#) • [📖 Documentation](#how-it-works) • [🐛 Report Bug](#) • [💡 Request Feature](#)
+
 </div>
 
-🌟 What is DocuMind AI?
-DocuMind AI is a Retrieval-Augmented Generation (RAG) chatbot that allows users to upload any PDF or text document and have an intelligent conversation with it. Instead of reading through long documents manually, just ask questions and get accurate answers instantly — with source references showing exactly where the answer came from.
+---
 
-💡 Real World Use Case: Imagine uploading a 100-page legal contract and asking "What are the termination clauses?" — DocuMind AI finds and answers it in seconds!
+## 📸 Screenshots
 
+<div align="center">
 
-❓ Why Was This Project Built?
-The Problem
+### 🏠 Main Interface
+![Main Interface](assets/screenshot1.png)
+
+### 💬 Chat in Action
+![Chat in Action](assets/screenshot2.png)
+
+### 📄 Sources Panel
+![Sources Panel](assets/screenshot3.png)
+
+</div>
+
+---
+
+## 🌟 What is DocuMind AI?
+
+DocuMind AI is a **Retrieval-Augmented Generation (RAG)** chatbot that allows users to upload any PDF or text document and have an intelligent conversation with it. Instead of reading through long documents manually, just ask questions and get accurate answers instantly — with source references showing exactly where the answer came from.
+
+> 💡 **Real World Use Case:** Imagine uploading a 100-page legal contract and asking *"What are the termination clauses?"* — DocuMind AI finds and answers it in seconds!
+
+---
+
+## ❓ Why Was This Project Built?
+
+### The Problem
 Every day, people struggle with:
+- 📚 Reading through **hundreds of pages** of PDFs manually
+- 🔍 Spending hours **searching for specific information** in documents
+- 😓 **Missing important details** buried deep in long reports
+- 🏢 Businesses needing to **query internal documents** quickly
 
-📚 Reading through hundreds of pages of PDFs manually
-🔍 Spending hours searching for specific information in documents
-😓 Missing important details buried deep in long reports
-🏢 Businesses needing to query internal documents quickly
-
-The Solution
+### The Solution
 DocuMind AI solves this by:
+- ✅ Letting you **upload any document** and chat with it instantly
+- ✅ Using **AI to find exact answers** from your specific document
+- ✅ Showing **source references** so you can verify every answer
+- ✅ Running on **100% free APIs** — no expensive subscriptions needed
 
-✅ Letting you upload any document and chat with it instantly
-✅ Using AI to find exact answers from your specific document
-✅ Showing source references so you can verify every answer
-✅ Running on 100% free APIs — no expensive subscriptions needed
+---
 
+## 🎯 Purpose & Use Cases
 
-🎯 Purpose & Use Cases
-Use CaseExample📄 Resume AnalysisUpload your resume → Ask "What are my strongest skills?"📚 Study HelperUpload textbook → Ask "Explain the concept of photosynthesis"⚖️ Legal DocumentsUpload contract → Ask "What are the penalty clauses?"🔬 Research PapersUpload paper → Ask "What is the conclusion of this study?"🏢 Business ReportsUpload report → Ask "What was the revenue in Q3?"📋 Policy DocumentsUpload HR policy → Ask "How many leave days do I get?"
+| Use Case | Example |
+|----------|---------|
+| 📄 **Resume Analysis** | Upload your resume → Ask "What are my strongest skills?" |
+| 📚 **Study Helper** | Upload textbook → Ask "Explain the concept of photosynthesis" |
+| ⚖️ **Legal Documents** | Upload contract → Ask "What are the penalty clauses?" |
+| 🔬 **Research Papers** | Upload paper → Ask "What is the conclusion of this study?" |
+| 🏢 **Business Reports** | Upload report → Ask "What was the revenue in Q3?" |
+| 📋 **Policy Documents** | Upload HR policy → Ask "How many leave days do I get?" |
 
-✨ Features
+---
 
-🚀 Instant PDF Upload — Drag and drop any PDF or TXT file
-🤖 AI-Powered Chat — Ask questions in natural language
-📍 Source References — See exactly which page the answer came from
-💬 Chat History — Maintains conversation context across questions
-🗑️ Document Management — Upload, list, and delete documents easily
-🌐 Modern UI — Clean React + Tailwind CSS interface
-⚡ Super Fast — Groq API delivers responses in under 2 seconds
-🆓 100% Free — No paid APIs, no credit card required
+## ✨ Features
 
-🛠️ Tech Stack
+- 🚀 **Instant PDF Upload** — Drag and drop any PDF or TXT file
+- 🤖 **AI-Powered Chat** — Ask questions in natural language
+- 📍 **Source References** — See exactly which page the answer came from
+- 💬 **Chat History** — Maintains conversation context across questions
+- 🗑️ **Document Management** — Upload, list, and delete documents easily
+- 🌐 **Modern UI** — Clean React + Tailwind CSS interface
+- ⚡ **Super Fast** — Groq API delivers responses in under 2 seconds
+- 🆓 **100% Free** — No paid APIs, no credit card required
+
+---
+
+## 🛠️ Tech Stack
+
 <div align="center">
-LayerTechnologyPurpose🤖 LLMGroq API + LLaMA 3 70BGenerate intelligent answers🔢 EmbeddingsHuggingFace all-MiniLM-L6-v2Convert text to vectors🗄️ Vector DBFAISS (Local)Store and search document chunks🔗 OrchestrationLangChainConnect all AI components⚙️ BackendFastAPI + Python 3.10REST API server⚛️ FrontendReact 18 + ViteUser interface🎨 StylingTailwind CSSModern responsive design📄 PDF ProcessingPyPDF + pdfplumberExtract text from PDFs
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| 🤖 **LLM** | Groq API + LLaMA 3 70B | Generate intelligent answers |
+| 🔢 **Embeddings** | HuggingFace all-MiniLM-L6-v2 | Convert text to vectors |
+| 🗄️ **Vector DB** | FAISS (Local) | Store and search document chunks |
+| 🔗 **Orchestration** | LangChain | Connect all AI components |
+| ⚙️ **Backend** | FastAPI + Python 3.10 | REST API server |
+| ⚛️ **Frontend** | React 18 + Vite | User interface |
+| 🎨 **Styling** | Tailwind CSS | Modern responsive design |
+| 📄 **PDF Processing** | PyPDF + pdfplumber | Extract text from PDFs |
+
 </div>
 
-🧠 How It Works
+---
+
+## 🧠 How It Works
+
+```
 ┌─────────────────────────────────────────────────────────┐
 │                    RAG PIPELINE                          │
 │                                                         │
@@ -85,8 +133,13 @@ LayerTechnologyPurpose🤖 LLMGroq API + LLaMA 3 70BGenerate intelligent answers
 │       ↓                                                 │
 │  ✅ Answer + Sources shown to User                      │
 └─────────────────────────────────────────────────────────┘
+```
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```
 documind-ai/
 │
 ├── 📁 backend/
@@ -121,28 +174,41 @@ documind-ai/
 │   └── screenshot3.png              ← Sources panel
 │
 └── README.md
+```
 
-⚙️ Installation & Setup
-Prerequisites
-ToolVersionPython3.10+Node.js18+GitAny
-🔑 Get Free API Keys
-Groq API Key (2 minutes, no credit card)
+---
 
-Visit → console.groq.com
-Sign up with Google
-API Keys → Create API Key → Copy it
+## ⚙️ Installation & Setup
 
-HuggingFace Token (optional — embeddings run locally)
+### Prerequisites
+| Tool | Version |
+|------|---------|
+| Python | 3.10+ |
+| Node.js | 18+ |
+| Git | Any |
 
-Visit → huggingface.co
-Settings → Access Tokens → New Token (READ)
+### 🔑 Get Free API Keys
 
-🚀 Run Locally
-1. Clone the repository
-bashgit clone https://github.com/YOURUSERNAME/documind-ai.git
+**Groq API Key** *(2 minutes, no credit card)*
+1. Visit → [console.groq.com](https://console.groq.com)
+2. Sign up with Google
+3. API Keys → Create API Key → Copy it
+
+**HuggingFace Token** *(optional — embeddings run locally)*
+1. Visit → [huggingface.co](https://huggingface.co)
+2. Settings → Access Tokens → New Token (READ)
+
+### 🚀 Run Locally
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/YOURUSERNAME/documind-ai.git
 cd documind-ai
-2. Setup Backend
-bashcd backend
+```
+
+**2. Setup Backend**
+```bash
+cd backend
 python -m venv venv
 venv\Scripts\activate        # Windows
 source venv/bin/activate     # Mac/Linux
@@ -150,36 +216,77 @@ pip install -r requirements.txt
 cp .env.example .env
 # Add your GROQ_API_KEY in .env
 uvicorn app.main:app --reload
-3. Setup Frontend
-bashcd frontend
+```
+
+**3. Setup Frontend**
+```bash
+cd frontend
 npm install
 npm run dev
-4. Open in browser
+```
+
+**4. Open in browser**
+```
 Frontend  → http://localhost:5173
 API Docs  → http://localhost:8000/docs
+```
 
-🔌 API Endpoints
-MethodEndpointDescriptionPOST/api/upload/Upload & index documentGET/api/upload/filesList all documentsDELETE/api/upload/{filename}Delete a documentDELETE/api/upload/clear/allClear everythingPOST/api/chat/Chat with documentsGET/api/chat/statusSystem statusGET/docsSwagger API docs
+---
 
-🆓 Free Tier Limits
-ServiceFree LimitCostGroq API14,400 requests/day$0 ForeverHuggingFace EmbeddingsUnlimited (runs locally)$0 ForeverFAISS Vector DBUnlimited (runs locally)$0 Forever
+## 🔌 API Endpoints
 
-🚀 Deployment Options
-PlatformServiceCostRenderBackend (FastAPI)Free tierVercelFrontend (React+Vite)Free tierRailwayFull stackFree tier
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/upload/` | Upload & index document |
+| `GET` | `/api/upload/files` | List all documents |
+| `DELETE` | `/api/upload/{filename}` | Delete a document |
+| `DELETE` | `/api/upload/clear/all` | Clear everything |
+| `POST` | `/api/chat/` | Chat with documents |
+| `GET` | `/api/chat/status` | System status |
+| `GET` | `/docs` | Swagger API docs |
 
-🤝 Contributing
+---
 
-Fork the repository
-Create your feature branch git checkout -b feature/AmazingFeature
-Commit your changes git commit -m "Add AmazingFeature"
-Push to the branch git push origin feature/AmazingFeature
-Open a Pull Request
+## 🆓 Free Tier Limits
 
+| Service | Free Limit | Cost |
+|---------|-----------|------|
+| Groq API | 14,400 requests/day | $0 Forever |
+| HuggingFace Embeddings | Unlimited (runs locally) | $0 Forever |
+| FAISS Vector DB | Unlimited (runs locally) | $0 Forever |
 
-📝 License
+---
+
+## 🚀 Deployment Options
+
+| Platform | Service | Cost |
+|----------|---------|------|
+| **Render** | Backend (FastAPI) | Free tier |
+| **Vercel** | Frontend (React+Vite) | Free tier |
+| **Railway** | Full stack | Free tier |
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch `git checkout -b feature/AmazingFeature`
+3. Commit your changes `git commit -m "Add AmazingFeature"`
+4. Push to the branch `git push origin feature/AmazingFeature`
+5. Open a Pull Request
+
+---
+
+## 📝 License
+
 Distributed under the MIT License.
 
+---
+
 <div align="center">
-⭐ If you found this project helpful, please give it a star! ⭐
-Built with ❤️ as a portfolio project demonstrating RAG, LLM integration, and full-stack AI development
+
+⭐ **If you found this project helpful, please give it a star!** ⭐
+
+**Built with ❤️ as a portfolio project demonstrating RAG, LLM integration, and full-stack AI development**
+
 </div>
