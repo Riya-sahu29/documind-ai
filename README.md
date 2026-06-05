@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![DocuMind AI Banner](assests/screenshot1.png)
-
 **An intelligent RAG-powered chatbot that lets you chat with any PDF or document using AI**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)](https://python.org)
