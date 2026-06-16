@@ -9,7 +9,7 @@ export default function FileUpload({ files, onFilesChange }) {
   const fileRef = useRef();
 
   const handleUpload = async (e) => {
-    const file = e.target.files[0];
+    const file = e.target.files[0]; 
     if (!file) return;
 
     setUploading(true);
@@ -72,7 +72,7 @@ export default function FileUpload({ files, onFilesChange }) {
           ) : (
             <>
               <Upload size={28} className="mx-auto text-blue-400 mb-2" />
-              <p className="text-sm font-medium text-gray-600">
+              <p className="text-sm font-medium text-gray-600">   
                 Click to upload PDF or TXT
               </p>
               <p className="text-xs text-gray-400 mt-1">Max 50MB</p>
@@ -92,7 +92,7 @@ export default function FileUpload({ files, onFilesChange }) {
       {/* Status Message */}
       {message && (
         <div
-          className={`mt-3 p-3 rounded-lg flex items-center gap-2 text-sm ${
+          className={`mt-3 p-3 rounded-lg flex items-center gap-2 text-sm ${ 
             message.type === "success"
               ? "bg-green-50 text-green-700"
               : "bg-red-50 text-red-700"
