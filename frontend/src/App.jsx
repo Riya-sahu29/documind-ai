@@ -131,7 +131,7 @@ export default function App() {
           </div>
 
           {/* Right Panel — Chat */}
-          <div className="lg:col-span-2 h-full min-h-[500px]">
+          <div className="lg:col-span-2 h-full min-h-[500px]">    
             <ChatWindow hasDocuments={hasDocuments} />
           </div>
         </div>
