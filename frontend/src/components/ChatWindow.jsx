@@ -6,7 +6,7 @@ import { sendMessage } from "../utils/api";
 function SourceCard({ source }) {
   const [open, setOpen] = useState(false);
   return (
-    <div className="border border-blue-100 rounded-lg overflow-hidden text-xs">
+    <div className="border border-blue-100 rounded-lg overflow-hidden text-xs"> 
       <button
         onClick={() => setOpen(!open)}
         className="w-full flex items-center justify-between px-3 py-2 bg-blue-50 text-blue-700 hover:bg-blue-100"
@@ -62,7 +62,7 @@ function Message({ msg }) {
               {msg.content}
             </ReactMarkdown>
           )}
-        </div>
+        </div> 
         {msg.sources && msg.sources.length > 0 && (
           <div className="w-full space-y-1">
             <p className="text-xs text-gray-400 flex items-center gap-1">
@@ -110,7 +110,7 @@ export default function ChatWindow({ hasDocuments }) {
 
     try {
       const result = await sendMessage(userMsg.content, history);
-      setMessages((prev) => [
+      setMessages((prev) => [ 
         ...prev,
         {
           role: "assistant",
@@ -185,7 +185,7 @@ export default function ChatWindow({ hasDocuments }) {
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && handleSend()}
+            onKeyDown={(e) => e.key === "Enter" && !e.shiftKey && handleSend()}  
             placeholder={
               hasDocuments
                 ? "Ask about your documents..."
