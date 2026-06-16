@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API_BASE = "http://localhost:8000/api";
 
-const api = axios.create({
+const api = axios.create({  
   baseURL: API_BASE,
   timeout: 60000,
 });
@@ -22,7 +22,7 @@ export const uploadDocument = async (file, onProgress) => {
 
 // Get list of uploaded files
 export const getFiles = async () => {
-  const response = await api.get("/upload/files");
+  const response = await api.get("/upload/files");  
   return response.data;
 };
 
@@ -49,6 +49,6 @@ export const sendMessage = async (query, chatHistory = []) => {
 
 // Get system status
 export const getStatus = async () => {
-  const response = await api.get("/chat/status");
+  const response = await api.get("/chat/status");   
   return response.data;
 };
