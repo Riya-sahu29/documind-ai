@@ -17,7 +17,7 @@ export default function FileUpload({ files, onFilesChange }) {
     setMessage(null);
 
     try {
-      const result = await uploadDocument(file, setProgress);
+      const result = await uploadDocument(file, setProgress);  
       setMessage({ type: "success", text: result.message });
       onFilesChange();
     } catch (err) {
@@ -91,7 +91,7 @@ export default function FileUpload({ files, onFilesChange }) {
 
       {/* Status Message */}
       {message && (
-        <div
+        <div  
           className={`mt-3 p-3 rounded-lg flex items-center gap-2 text-sm ${ 
             message.type === "success"
               ? "bg-green-50 text-green-700"
@@ -124,7 +124,7 @@ export default function FileUpload({ files, onFilesChange }) {
           {files.map((file) => (
             <div
               key={file}
-              className="flex items-center justify-between bg-gray-50 rounded-lg px-3 py-2"
+              className="flex items-center justify-between bg-gray-50 rounded-lg px-3 py-2"  
             >
               <div className="flex items-center gap-2 min-w-0">
                 <File size={14} className="text-blue-400 shrink-0" />
