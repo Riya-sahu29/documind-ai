@@ -22,7 +22,7 @@
 <div align="center">
 
 ### 🏠 Main Interface
-![Main Interface](assests/screenshot1.png)
+![Main Interface](assests/screenshot1.png)  
 
 ### 💬 Chat in Action
 ![Chat in Action](assests/screenshot2.png)
@@ -42,7 +42,7 @@ DocuMind AI is a **Retrieval-Augmented Generation (RAG)** chatbot that allows us
 
 ---
 
-## ❓ Why Was This Project Built?
+## ❓ Why Was This Project Built?   
 
 ### The Problem
 Every day, people struggle with:
@@ -51,7 +51,7 @@ Every day, people struggle with:
 - 😓 **Missing important details** buried deep in long reports
 - 🏢 Businesses needing to **query internal documents** quickly
 
-### The Solution
+### The Solution  
 DocuMind AI solves this by:
 - ✅ Letting you **upload any document** and chat with it instantly
 - ✅ Using **AI to find exact answers** from your specific document
