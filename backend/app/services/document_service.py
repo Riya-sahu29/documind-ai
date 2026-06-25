@@ -14,7 +14,7 @@ class DocumentService:
         self.upload_dir = Path(settings.UPLOAD_DIR)
         self.upload_dir.mkdir(parents=True, exist_ok=True)
         self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=settings.CHUNK_SIZE,
+            chunk_size=settings.CHUNK_SIZE, 
             chunk_overlap=settings.CHUNK_OVERLAP,
             separators=["\n\n", "\n", ".", " ", ""],
         )
@@ -57,7 +57,7 @@ class DocumentService:
 
     def list_uploaded_files(self) -> List[str]:
         """List all uploaded files"""
-        return [f.name for f in self.upload_dir.iterdir() if f.is_file()]
+        return [f.name for f in self.upload_dir.iterdir() if f.is_file()]  
 
     def delete_file(self, filename: str) -> bool:
         """Delete a file from uploads"""
