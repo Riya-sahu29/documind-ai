@@ -11,7 +11,7 @@ from app.core.config import settings
 
 class VectorStoreService:
     def __init__(self):
-        self.vectorstore_path = Path(settings.VECTORSTORE_PATH)
+        self.vectorstore_path = Path(settings.VECTORSTORE_PATH)   
         self.vectorstore_path.mkdir(parents=True, exist_ok=True)
         self.index_path = str(self.vectorstore_path / "faiss_index")
         self.vectorstore: Optional[FAISS] = None
