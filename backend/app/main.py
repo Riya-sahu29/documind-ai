@@ -7,7 +7,7 @@ from app.api import upload, chat
 app = FastAPI(
     title=settings.APP_NAME,
     version=settings.APP_VERSION,
-    description="RAG Chatbot - Chat with your PDFs using Groq + HuggingFace (100% Free)",
+    description="RAG Chatbot - Chat with your PDFs using Groq + HuggingFace (100% Free)",  
 )
 
 # CORS — allow frontend to call backend
@@ -21,7 +21,7 @@ app.add_middleware(
 
 # Register routers
 app.include_router(upload.router, prefix="/api")
-app.include_router(chat.router, prefix="/api")    
+app.include_router(chat.router, prefix="/api")      
 
 
 @app.get("/")
@@ -35,4 +35,4 @@ def root():
 
 @app.get("/health")
 def health():
-    return {"status": "healthy"}  
+    return {"status": "healthy"}     
