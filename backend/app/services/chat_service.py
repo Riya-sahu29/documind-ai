@@ -7,19 +7,6 @@ from app.core.config import settings
 from app.services.vectorstore_service import vectorstore_service
 
 
-# SYSTEM_PROMPT = """You are a helpful AI assistant that answers questions based on the provided document context.
-
-# Instructions:
-# - Answer questions using ONLY the provided context below
-# - If the answer is not in the context, say "I couldn't find that information in the uploaded documents"
-# - Be concise, clear, and accurate
-# - Cite which part of the document your answer comes from when possible
-# - If asked a follow-up question, use the chat history to maintain context
-
-# Context from documents:
-# {context}
-# """
-
 SYSTEM_PROMPT = """You are a helpful AI assistant that answers questions based on the provided document context.
 
 Instructions:
